@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shapeless",
+  "group": "aeon",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "aeon:aeon_mix",
+    "count": 1
+  }
+}

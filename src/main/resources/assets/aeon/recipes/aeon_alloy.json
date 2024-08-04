@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAB",
+    "ABG",
+    "AAB"
+  ],
+  "key": {
+    "A": {
+      "item": "aeon:aeon_ingot"
+    },
+    "B": {
+      "item": "minecraft:gold_ingot"
+    },
+    "G": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "aeon:aeon_alloy",
+    "count": 1
+  }
+}

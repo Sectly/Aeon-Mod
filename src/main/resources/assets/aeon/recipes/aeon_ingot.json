@@ -1,0 +1,9 @@
+{
+  "type": "blast_furnace",
+  "ingredient": {
+    "item": "aeon:aeon_mix"
+  },
+  "result": "aeon:aeon_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

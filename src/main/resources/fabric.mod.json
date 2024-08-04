@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "aeon",
+	"version": "${version}",
+	"name": "Aeon",
+	"description": "Aeon is an exciting Minecraft tech mod that introduces a futuristic technology progression system and so much more!",
+	"authors": [
+		"Sectly"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/aeon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"sectly.aeon.Aeon"
+		],
+		"client": [
+			"sectly.aeon.AeonClient"
+		],
+		"fabric-datagen": [
+			"sectly.aeon.AeonDataGenerator"
+		]
+	},
+	"mixins": [
+		"aeon.mixins.json",
+		{
+			"config": "aeon.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

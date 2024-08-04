@@ -1,0 +1,12 @@
+{
+  "texture": "lavender:textures/gui/brown_book.png",
+  "display_completion": true,
+  "macros": {
+    "@next-page": "{gray}*⟳ %{text.aeon.aeon-guide.next_page}%*{}\n\n;;;;;",
+    "@entry-end": "<|entry-end-marker@aeon:aeon-guide|>",
+    "{i}": "{#FA00FA}",
+    "{c}": "{#179FA6}",
+    "{item}": "{i}",
+    "{concept}": "{c}"
+  }
+}
