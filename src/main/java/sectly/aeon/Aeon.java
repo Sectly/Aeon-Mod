@@ -22,5 +22,7 @@ public class Aeon implements ModInitializer {
 		LOGGER.warn("Aeon Is In Development Phase, Here Be Dragons!");
 
 		LOGGER.info("Hi ma! :D");
+
+		LOGGER.info("Initialization Started!");
 	}
 }
